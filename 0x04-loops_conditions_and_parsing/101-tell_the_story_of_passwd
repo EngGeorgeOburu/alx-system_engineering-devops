@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#Script displaying contents of the file /etc/passwd
+
