@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Script displayingactive IPv4 on the machine its executed on
+
+hostname -I | cut -d' ' -f1 ; hostname -i
