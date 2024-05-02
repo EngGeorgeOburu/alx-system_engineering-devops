@@ -1,6 +1,6 @@
 # This manifest creates a file at /tmp
 file { '/tmp/school':
-  ensure  => file,
+  ensure  => present,
   path	  => '/tmp/school',
   owner   => 'www-data',
   group   => 'www-data',
