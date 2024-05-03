@@ -1,4 +1,5 @@
-# This manifest creates a file at /tmp
+# creates a file at /tmp
+
 file { '/tmp/school':
   ensure  => present,
   path	  => '/tmp/school',
