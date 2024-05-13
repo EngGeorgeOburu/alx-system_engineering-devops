@@ -44,7 +44,7 @@ COMMIT
 -A ufw-not-local -m limit --limit 3/min --limit-burst 10 -j ufw-logging-deny
 -A ufw-not-local -j DROP
 
--A ufw-before-input -p udp -d "   " --dport 5353 -j ACCEPT
--A ufw-before-inpur -p udp -d "  " --DPORT 1900 -j ACCEPT
+-A ufw-before-input -p udp -d 54.196.27.62 --dport 5353 -j ACCEPT
+-A ufw-before-inpur -p udp -d 100.25.47.209 --DPORT 1900 -j ACCEPT
 COMMIT
  
