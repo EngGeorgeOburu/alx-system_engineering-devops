@@ -1,3 +1,0 @@
-HTTPS SSL
-
-Hypertext security

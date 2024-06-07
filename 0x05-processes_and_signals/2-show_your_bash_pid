@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-#Script displaying lines with bash word
-#Shellcheck disabled
-
-ps aux | grep bash

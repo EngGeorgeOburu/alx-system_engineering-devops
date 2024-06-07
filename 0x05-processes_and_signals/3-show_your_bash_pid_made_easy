@@ -1,4 +1,0 @@
-#!/usr/bin/env bash
-#Bash script displaying the PID
-
-pgrep -l bash

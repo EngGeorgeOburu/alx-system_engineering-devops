@@ -1,9 +1,0 @@
-#!/usr/bin/env bash
-# Indefinately writes "I am alive" to the file /tmp/my_process.
-#   pauses two seconds in between each meaasage
-
-while true
-do
-    echo "I am alive!" >> /tmp/my_process
-    sleep 2
-done

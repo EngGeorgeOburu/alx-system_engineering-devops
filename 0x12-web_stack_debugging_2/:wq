@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-# Running NginxasNginx
-sed -i '

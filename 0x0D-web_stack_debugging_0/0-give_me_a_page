@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-#Starting apache2 server
-#page containing Hello Holberton
-mkdir -p /var/www/html
-echo "Hello Holberton" > /var/www/html/index.html
-service apache2 start
